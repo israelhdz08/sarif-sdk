@@ -56,5 +56,8 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
 
         /// <summary>MSBuild's build log format, from which diagnostic messages can be parsed.</summary>
         public const string MSBuild = nameof(MSBuild);
+
+        /// <summary>Build XL's build log format.</summary>
+        public const string BuildXL = nameof(BuildXL);
     }
 }

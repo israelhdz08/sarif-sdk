@@ -40,6 +40,7 @@ namespace Microsoft.CodeAnalysis.Sarif.Converters
             CreateConverterRecord<StaticDriverVerifierConverter>(result, ToolFormat.StaticDriverVerifier);
             CreateConverterRecord<TSLintConverter>(result, ToolFormat.TSLint);
             CreateConverterRecord<MSBuildConverter>(result, ToolFormat.MSBuild);
+            CreateConverterRecord<BuildXLConverter>(result, ToolFormat.BuildXL);
             return result;
         }
 
